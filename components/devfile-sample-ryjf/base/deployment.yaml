@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ryjf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-776-0019-tenant/ci10t-776-0019-app/devfile-sample-ryjf@sha256:9e67420dc3708e345a1fdc222f178bfb758fc7251072def2eda3e0aa264532b6
         name: my-nodejs
         ports:
         - containerPort: 3001
